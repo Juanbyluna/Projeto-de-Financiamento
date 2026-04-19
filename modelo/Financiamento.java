@@ -4,7 +4,7 @@ package modelo;
 public class Financiamento {
     private double valorImovel;
     private double prazoFinanciamento;
-    private double taxaJurosAnual;
+    private double taxaJurosAnual;  
 
     public Financiamento(double valorDesejadoImovel, double prazoFinanciamentoAnos, double taxaJuros) {
         this.valorImovel = valorDesejadoImovel;
